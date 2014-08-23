@@ -1,0 +1,23 @@
+{
+  "name": "copay-core",
+  "version": "0.1.0",
+  "description": "A bitcoin wallet library, for humans",
+  "main": "copay.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yemel/copay-core.git"
+  },
+  "author": "Yemel Jardi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yemel/copay-core/issues"
+  },
+  "homepage": "https://github.com/yemel/copay-core"
+}
