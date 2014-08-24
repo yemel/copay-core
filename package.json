@@ -1,6 +1,6 @@
 {
   "name": "copay-core",
-  "version": "0.1.0",
+  "version": "0.5.0",
   "description": "A bitcoin wallet library, for humans",
   "main": "copay.js",
   "directories": {
@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/yemel/copay-core/issues"
   },
-  "homepage": "https://github.com/yemel/copay-core"
+  "homepage": "https://github.com/yemel/copay-core",
+  "dependencies": {
+    "mocha": "^1.21.4"
+  }
 }
