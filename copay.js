@@ -7,6 +7,7 @@ copay.services = {
   Network: null,
   Storage: require('./lib/services/storage'),
   Cypher: require('./lib/services/cypher'),
+  Market: require('./lib/services/market'),
 }
 
 module.exports = copay;

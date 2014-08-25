@@ -5,7 +5,7 @@ var should = chai.should();
 
 var copay = require('../copay');
 
-describe('Blockchain', function() {
+describe('Cypher', function() {
 
   it('should be able to create an instance', function() {
     var instance = new copay.services.Blockchain();
