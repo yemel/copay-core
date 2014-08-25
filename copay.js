@@ -6,6 +6,7 @@ copay.services = {
   Blockchain: require('./lib/services/blockchain'),
   Network: null,
   Storage: require('./lib/services/storage'),
+  Cypher: require('./lib/services/cypher'),
 }
 
 module.exports = copay;

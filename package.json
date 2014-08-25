@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/yemel/copay-core",
   "dependencies": {
-    "mocha": "^1.21.4"
+    "mocha": "^1.21.4",
+    "node-cryptojs-aes": "^0.4.0",
+    "preconditions": "^1.0.7"
   }
 }

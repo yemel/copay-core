@@ -7,8 +7,11 @@ var copay = require('../copay');
 
 describe('Storage', function() {
 
+  var opts = {};
+  opts.cypher = new copay.services.Cypher('passphrase');
+
   it('should be able to create an instance', function() {
-    var instance = new copay.services.Storage();
+    var instance = new copay.services.Storage(opts);
     should.exist(instance);
   });
 
